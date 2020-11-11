@@ -16,7 +16,7 @@ namespace Laba3_CSharp
              */
 
 
-            Console.WriteLine("Eneter const \'e\':  ");
+            Console.WriteLine("Enter accurasy:  ");
             try
             {
                 double accurasy = Convert.ToDouble(Console.ReadLine()); // точність
@@ -41,7 +41,7 @@ namespace Laba3_CSharp
                     i++;
                 }
 
-                Console.Write($"\n\nОстаточне E  =  {constE}");
+                Console.Write($"\n\nОстаточне E  =  {constE}\n\n");
             }
             catch (Exception)
             {
